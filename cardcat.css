@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+
+body{
+    background-color: #fec7d7;
+}
+
+.btn-flecha{
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    background-color: silver;
+    border: solid 2px;
+    width: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.catdog1{
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+/*
+@media (min-width: 576px) {
+    .catdog1{
+       max-width: 540px;
+     }
+    }
+*/
+
+.description-img{
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+}
+
+
+#text-description-img{
+    margin-left: 20px;
+    padding: 20px;
+}
+
+
+
+h1{
+    display: inline-block;
+}
+
+
+.gust{
+    border: black solid;
+    border-radius: 10px;
+    width: 120px;
+    height: 100px;
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+#gust1{
+    display: block; 
+    margin: auto; 
+    padding-top: 10px;
+    
+}
+
+.img-contact{
+    border-radius: 60px;
+    border: blue solid;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+#img-contact{
+    height: 90px;
+    display: block; 
+    margin: auto; 
+}
+
+.text-person{
+    margin-right: 1000px;
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.contact{
+    background-color: royalblue;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+p{
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 18px;
+    color: black;
+}
+
+.detalles{
+   display: inline-block;
+   margin-left: 20px;
+}
+
+#text{
+    float: right;
+}
+
+#text1{
+    
+    display: inline-block;
+    margin-left: 5px;
+}

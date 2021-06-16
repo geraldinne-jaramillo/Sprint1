@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #fec7d7;
+    color: black;
+
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,auto);
+}
+
+
+
+ .img1, .img2, .img3, .img4{
+    background: white;
+    padding: 10px;
+    border-radius: 4px;
+ }
+
+  .footer{
+     background: white;
+     padding: 20px;
+     border-radius: 4px;
+ }
+
+
+
+
+.contenedor .titulo{
+    grid-column-start: 1;
+    grid-column-end: -1;
+    text-align: center;
+    justify-content: center;
+}
+.contenedor .header{
+    background: cornsilk;
+    grid-column: span 0;
+    width: fit-content;
+}
+
+.contenedor .header2{
+    background: cornsilk;
+    color: black;
+    grid-column: 2/2;
+    width: fit-content;
+}
+
+.header .categ1{
+   
+    color: black;
+    grid-column:span 1;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.cat1{
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 20px;
+    height: 350px;
+    width: 300px;
+    padding: 10px;
+}
+
+.header2 .categ2{
+  
+    color: black;
+    grid-column:span 1;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.cat-cat:hover{
+    width: 110px;
+}
+
+.img1{
+    grid-column: span 1;
+}
+ .img2{
+    grid-column: span 1;
+}
+.img3{
+    grid-column: span 1;
+}
+ .img4{
+    grid-column: span 1;
+}
+
+
+.footer{
+    color: cornsilk;
+    grid-column: span 2;
+}
+
+
+/*Footer*/
+
+
+.navprincipal {
+    width: 100%;
+    margin: auto;
+}
+  
+ nav ul {
+    list-style: none;
+    overflow: hidden ; 
+    margin-left: 200px;
+}
+ 
+nav ul a:hover {
+    background-color: pink;
+}
+
+.nv1:hover{
+    height: 50px;
+    width: 50px;
+ }
+  
+
+#nav-bar ul a .nav-link {
+    display: inline-block; 
+    text-decoration: none;
+  }
+
+
+a{
+    display: inline-block;
+    margin: 32px;
+    text-align: justify;
+  }
+
+
+@media screen and (max-width:768px) {
+    
+}
